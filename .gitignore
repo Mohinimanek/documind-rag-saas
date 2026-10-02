@@ -10,15 +10,17 @@ venv/
 # Environment variables
 .env
 
+# Uploaded documents
+uploads/
+backend/uploads/
+
+# PostgreSQL / local data
+*.db
+
 # IDE
 .vscode/
-
-# Uploaded documents
-documents/*
+.idea/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
